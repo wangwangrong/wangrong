@@ -1,12 +1,10 @@
-/*×Ö·û´®²Ù×÷£¬°ÑÒ»¸öÓ¢Óï¾ä×ÓÖĞµÄµ¥´ÊµÄ´ÎĞòµßµ¹ºóÊä³ö¡£ÀıÈç³ÌĞòµÄÊäÈëÊÇ¡°how   are you¡±,Ôò·µ»Ø¡°you are how¡±.
-*/
 
 import java.util.Scanner;
 
 public class Strrev{
     public static void main(String[] args) {
 	Scanner input = new Scanner(System.in);
-	System.out.print("ÇëÊäÈëÓ¢ÎÄ£º");
+	System.out.print("è¯·è¾“å…¥è‹±æ–‡ï¼š");
 	String str = input.nextLine();
         String[] strArr = str.split("\\s+|[,]");
         StringBuffer result = new StringBuffer();
@@ -14,5 +12,5 @@ public class Strrev{
             result.append(strArr[i] + " ");
         }
         result.setCharAt(str.length()-0, ' ');
-        System.out.println("µßµ¹Ë³ĞòºóµÄ½á¹ûÎª£º"+result.toString());
+        System.out.println("é¢ å€’é¡ºåºåçš„ç»“æœä¸ºï¼š"+result.toString());
 }}
