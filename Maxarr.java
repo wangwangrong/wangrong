@@ -1,5 +1,4 @@
-/*ÕÒ³öÒ»¸öÕûÊıÊı×éÖĞ×ÓÊı×éÖ®ºÍµÄ×î´óÖµ£¬ÀıÈç£ºÊı×é[1,-2,3,5,1]£¬·µ»Ø 8 £¨ÒòÎª  ·ûºÏÒªÇóµÄ×ÓÊı×éÊÇ[3,5]£©
-*/
+
 
 import java.util.Scanner;
 import java.io.*;
@@ -9,7 +8,7 @@ public class Maxarr{
 	int[]a = null;
 	Scanner input = new Scanner(System.in);
 	int len=0;
-	System.out.print("ÇëÊäÈëÊı×éµÄ³¤¶È£º");
+	System.out.print("è¯·è¾“å…¥æ•°ç»„çš„é•¿åº¦ï¼š");
 	try{
 	    len = Integer.parseInt(input.nextLine());
 	}catch(Exception e){
@@ -20,12 +19,12 @@ public class Maxarr{
 	System.out.println("a.length ="+a.length);
 	
 	for(int i=0;i<a.length;i++){
-	    System.out.print("ÇëÊäÈëÊıÖµ£º");
+	    System.out.print("è¯·è¾“å…¥æ•°å€¼ï¼š");
 	    a[i] = input.nextInt();
 	}
 	
 	System.out.println();
-	System.out.print("¸ÃÊı×éÎª£º");
+	System.out.print("è¯¥æ•°ç»„ä¸ºï¼š");
 	for(int i=0;i<a.length;i++){
 	    
 	    System.out.print(a[i] + " ");
@@ -43,7 +42,7 @@ public class Maxarr{
 	}
 	
 	System.out.println();
-	System.out.println("¸ÃÊı×éÖ®ºÍµÄ×î´óÖµÎª "+max);
+	System.out.println("è¯¥æ•°ç»„ä¹‹å’Œçš„æœ€å¤§å€¼ä¸º "+max);
 
     }
     
